@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Parisienne&family=Playfair+Display:wght@400;600&display=swap');
+
+:root {
+  --paper: #f8f5ea;
+  --canvas: #faf6ef;
+  --card: rgba(255, 253, 248, 0.86);
+  --text: #504839;
+  --ink-soft: #3e372b;
+  --olive-deep: #6e7c43;
+  --font-body: 'Lato', 'Segoe UI', sans-serif;
+  --font-date: 'Playfair Display', Georgia, serif;
+  --font-heading: 'Parisienne', cursive;
+  --font-script: 'Parisienne', cursive;
+  font: 14px/1.65 var(--font-body);
+  color: var(--text);
+  background: var(--canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 7rem;
+}
+
+body {
+  margin: 0;
+  background: var(--canvas);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
